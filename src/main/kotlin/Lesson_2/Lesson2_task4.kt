@@ -1,7 +1,5 @@
 package Lesson_2
 
-import kotlin.time.times
-
 fun main(){
     val CrystalOre = 7
     val IronOre = 11
