@@ -1,14 +1,15 @@
 package Lesson_1
 
 fun main() {
-    val CompliteOrders:Int = 75
-    val ThankPurchase:String = "Спасибо за покупку!"
-    println("Вы совершили $CompliteOrders заказов! $ThankPurchase")
+    val compliteOrders: Int = 75
+    val thankPurchase: String = "Спасибо за покупку!"
 
-    var NumberOfWorker:Int = 2000
-//    println("Колличество сотрудников $NumberOfWorker")
+    println("Вы совершили $compliteOrders заказов! $thankPurchase")
 
-        NumberOfWorker = 1999
-    println("Колличество сотрудников $NumberOfWorker")
+    var numberOfWorker: Int = 2000
+//    println("Колличество сотрудников $numberOfWorker")
+    numberOfWorker = 1999
+
+    println("Колличество сотрудников $numberOfWorker")
 
 }
