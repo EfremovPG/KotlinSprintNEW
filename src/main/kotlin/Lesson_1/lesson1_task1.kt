@@ -1,6 +1,6 @@
 package Lesson_1
 
 fun main() {
-    var CompliteOrders:Int = 75
-    var ThankPurchase:String = "Спасибо за покупку!"
+    val compliteOrders: Int = 75
+    val chankPurchase: String = "Спасибо за покупку!"
 }
