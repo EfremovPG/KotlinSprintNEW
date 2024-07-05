@@ -1,19 +1,20 @@
 package Lesson_1
 
-import com.sun.tools.attach.AgentLoadException
-
 fun main() {
-    val Lenght:Long = 40868600000
-    val Age:Int = 27
-    val PartOfDay:Double = 0.075
-    val Seconds:Int = 6480
-    val PartOfYear: Double = 2.0547945205479453E-4
-    val Apogee:Int = 327000
-println("""$Lenght
-    |$Age
-    |$PartOfDay
-    |$Seconds
-    |$PartOfYear
-    |$Apogee
-""".trimMargin())
+    val lenght: Long = 40868600000
+    val age: Byte = 27
+    val partOfDay: Float = 0.075f
+    val seconds: Short = 6480
+    val partOfYear: Double = 2.0547945205479453E-4
+    val apogee: Int = 327000
+
+    println(
+        """$lenght
+    |$age
+    |$partOfDay
+    |$seconds
+    |$partOfYear
+    |$apogee
+""".trimMargin()
+    )
 }
