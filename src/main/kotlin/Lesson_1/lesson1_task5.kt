@@ -6,7 +6,8 @@ fun main() {
     val timeInMimute = timeInSeconds / 60
     val hour = timeInMimute / 60
     val minute = timeInMimute % 60
+    val second = timeInSeconds % 60
 
-    println("Время в космосе $hour:$minute")
+    println(String.format("Время в космосе: %02d:%02d:%02d", hour, minute, second))
 
 }
