@@ -2,12 +2,12 @@ package Lesson_3
 
 fun main() {
     val username = "Пользователь"
-    var greeting = "Добрый день, "
+    var greeting = "Добрый день"
 
-    println("$greeting $username")
+    println("$greeting, $username")
 
-    greeting = "Добрый вечер, "
+    greeting = "Добрый вечер"
 
-    println("$greeting $username")
+    println("$greeting, $username")
 
 }
