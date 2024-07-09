@@ -10,6 +10,4 @@ fun main() {
     val result = deposit * (1 + rate / 100).pow(time)
 
     println("Размер вклада через $time лет:$result")
-
-
 }
