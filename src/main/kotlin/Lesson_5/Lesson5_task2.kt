@@ -1,6 +1,7 @@
 package Lesson_5
 
 fun main() {
+
     println("Введите год рождения:")
     val thisYear = 2024
     val userYear = readln().toInt()
@@ -9,5 +10,4 @@ fun main() {
         println("Показать экран со скрытым контентом")
     }
 }
-
 const val AGE_OF_MAJORITY = 18
