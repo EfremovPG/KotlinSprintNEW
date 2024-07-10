@@ -2,11 +2,12 @@ package Lesson_4
 
 fun main() {
 
-    val sunnyToday = true
-    val awningOpenToday = true
+    val isSunny = true
+    val isAwningOpen = true
     val airHumidityToday = 20
     val seasonToday = "winter"
-    val favorableConditions = SUNNY == sunnyToday && AWING_OPEN == awningOpenToday && AIR_HUMIDITY == airHumidityToday && SEASON != seasonToday
+    val favorableConditions = SUNNY == isSunny && AWING_OPEN == isAwningOpen &&
+            AIR_HUMIDITY == airHumidityToday && SEASON != seasonToday
 
     println("Благоприятные ли условия сейчас для роста бобовых? $favorableConditions")
 }
