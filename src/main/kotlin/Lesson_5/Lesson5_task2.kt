@@ -10,4 +10,5 @@ fun main() {
         println("Показать экран со скрытым контентом")
     }
 }
+
 const val AGE_OF_MAJORITY = 18
