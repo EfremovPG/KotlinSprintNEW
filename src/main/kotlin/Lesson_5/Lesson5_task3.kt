@@ -1,8 +1,11 @@
 package Lesson_5
 
 fun main() {
+    val diceRange = 0..42
+    val winNumberFirst = diceRange.random()
+    val winNumberSecond = diceRange.random()
+    println("Попробуйте угадать два числа от 0 до 42 ")
 
-    println("Попробуйте угадать два числа ")
     println("Введите первое число:")
 
     val checkWinFirst = readln().toInt()
@@ -11,21 +14,18 @@ fun main() {
 
     val checkWinSecond = readln().toInt()
 
-    if (checkWinFirst == WIN_NUMBER_FIRST && checkWinSecond == WIN_NUMBER_SECOND ||
-        checkWinFirst == WIN_NUMBER_SECOND && checkWinSecond == WIN_NUMBER_FIRST
+    if (checkWinFirst == winNumberFirst && checkWinSecond == winNumberSecond ||
+        checkWinFirst == winNumberSecond && checkWinSecond == winNumberFirst
     ) {
         println("Поздравляем! Вы выиграли главный приз!")
-    } else if (checkWinFirst == WIN_NUMBER_FIRST || checkWinSecond == WIN_NUMBER_SECOND ||
-        checkWinFirst == WIN_NUMBER_SECOND || checkWinSecond == WIN_NUMBER_FIRST
+    } else if (checkWinFirst == winNumberFirst || checkWinSecond == winNumberSecond ||
+        checkWinFirst == winNumberSecond || checkWinSecond == winNumberFirst
     ) {
 
         println("Вы выиграли утешительный приз!")
     } else {
         println("Неудача!")
     }
-    println("Загаданные числа: 23 и 41")
+    println("Загаданные числа: $winNumberFirst и $winNumberSecond")
 
 }
-
-const val WIN_NUMBER_FIRST = 23
-const val WIN_NUMBER_SECOND = 41
