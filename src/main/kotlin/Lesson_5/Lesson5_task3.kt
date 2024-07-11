@@ -1,7 +1,7 @@
 package Lesson_5
 
 fun main() {
-    val diceRange = 0..42
+
     val winNumberFirst = diceRange.random()
     val winNumberSecond = diceRange.random()
     println("Попробуйте угадать два числа от 0 до 42 ")
@@ -29,3 +29,4 @@ fun main() {
     println("Загаданные числа: $winNumberFirst и $winNumberSecond")
 
 }
+val diceRange = 0..42
